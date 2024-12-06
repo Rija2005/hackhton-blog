@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- SweetAlert2 CSS -->
+<link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.6.7/dist/sweetalert2.min.css" rel="stylesheet">
+<link rel="stylesheet" href="sign.css">
+<!-- SweetAlert2 JS -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.6.7/dist/sweetalert2.all.min.js"></script>
+
+</head>
+<body>
+    <div class="signup-container">
+        <!-- Header Section -->
+        <div class="signup-header">
+            
+            <h2>Create Your Account</h2>
+        </div>
+
+        <!-- Signup Form -->
+        <form id="signup-form">
+            <div class="mb-3">
+                <label for="name" class="form-label">UserName</label>
+                <input type="text" class="form-control" id="UserName" placeholder="Enter your username" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Create a password" required>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Sign Up</button>
+        </form>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>Already have an account? <a href="login.html" style="color: #ff7eb3;">Log in</a></p>
+        </div>
+    </div>
+    <script type="module" src="firebase.js"></script>
+    <script type="module" src="app.js"></script>
+</body>
+</html>

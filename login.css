@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #c7aee2 0%, #cfd9ea 100%);
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+.login-container {
+    background-color: white;
+    color: black;
+    padding: 30px;
+    border-radius: 20px; /* Custom border radius */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+}
+.login-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.login-header img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+.btn-google {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-google img {
+    width: 20px;
+    margin-right: 10px;
+}
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    color: gray;
+}
